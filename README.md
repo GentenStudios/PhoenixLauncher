@@ -1,14 +1,18 @@
-TODO: make this not terrible lol
+# PhoenixLauncher
 
-Requirements to build/ run
+This repository is hosting the source code for the launcher of Phoenix, a game which will use Quartz Engine.
 
-Python 3.7.x (*3.8 is too new)
-PIP
-Kivy
+## Requirements to build / run
 
-To install Kivy, run these commands
+* Python 3.7.x
+* PIP
+* Kivy
 
-python -m pip install --upgrade pip wheel setuptools
-python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
-python -m pip install kivy.deps.gstreamer
-python –m pip install kivy
+To install Kivy, run these commands:
+
+```bash
+$ python -m pip install --upgrade pip wheel setuptools
+$ python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+$ python -m pip install kivy.deps.gstreamer
+$ python –m pip install kivy
+```
